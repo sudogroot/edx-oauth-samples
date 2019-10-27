@@ -23,8 +23,8 @@ const OIDC_BASE_URI = `http://localhost:18000/oauth2`;
 // with credentials obtained from OneLogin
 //http://localhost:18000/api/mobile/v1/users/edx
 
-OIDC_CLIENT_ID = "5a2cbfd03c684dae76eb";
-OIDC_CLIENT_SECRET = "c5d17683c9f8351509718ad0c9cfbf42443fcc4c";
+OIDC_CLIENT_ID = "7c0078c04ecddbf97f67";
+OIDC_CLIENT_SECRET = "530c2b90085e56f286059b74ffd30cc2d663c8a6";
 OIDC_REDIRECT_URI = "http://localhost:3400/complete/edx-oidc/";
 
 passport.use(

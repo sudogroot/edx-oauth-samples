@@ -2,7 +2,7 @@
 
 
 var app = require("../app");
-var debug = require("debug")("auth-flow:server");
+var debug = console.log
 var http = require("http");
 
 /**
