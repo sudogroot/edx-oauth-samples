@@ -2,7 +2,7 @@
 
 - the difference between OIDC and Oauth2? (openid.md file)
 - how to impliment the SSO? (config-edx.md)
-- what is these tables? in wich purpose do we use them?
+- what is these tables? in wich purpose do we use them? (still working on)
   * admin/oauth2_provider/
   * admin/edx_oauth2_provider/
   * admin/external_auth/
