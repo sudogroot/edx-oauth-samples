@@ -3,12 +3,15 @@ those are samples that works with edx as openid provider
 Oauth2 with edx.
 
 
-this will contains : 
-- auth flow
+## Getting started
+ -npm install 
+ -npm  start
 
-- TODO :  timplicit flow
-- TODO : password grant
+## Docs
+ docs/README.md
 
 
-TODO  add supported edx version 
-TODO create Docs explaining auth in edx
+
+## TODO : 
+ - improve user profile info or OPENID scopes  using auther edx APIS
+ - improve the documentation
