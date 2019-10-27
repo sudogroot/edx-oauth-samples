@@ -21,9 +21,22 @@ edx will genrate token for you app if it is in trusted clinet (TODO in depth exp
 
 
 ###Step 3
-add your app to  trusted client list in  edx: 
-![alt text](./images/trusted-client.png "Logo Title Text 1")
+change edxapp configuration  in lms.env.json: 
 
-edx will genrate token for you app if it is in trusted clinet (TODO in depth explanation)
+ - Enable Oauth2
+![alt text](./images/enable-oauth2.png "enabl Ouath2")
+ - change Oauth2 enforce secured
+ ![alt text](./images/enforce-secure.png "enabl Ouath2")
+   
+   -the issue that i have that even is the default OAUTH_ENFORCE_SECURE=FALSE it will show this issue
+    ![alt text](./images/secure-connection.png "enabl Ouath2")
+
+    **so what i have todo is to change it explicitly  in edx-platform/lms/envs/common.py to True :**
+
+    ![alt text](./images/enforce-secure-common.png "enabl Ouath2")
 
 
+###Step 3
+
+	- restart your docker after changes
+	- npm start auth flow project
